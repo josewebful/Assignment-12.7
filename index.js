@@ -31,6 +31,7 @@ function displayResults(responseJson) {
 
 function getParkInfo(query, maxResults) {
   const params = {
+    "Access-Control-Allow-Origin": "*",
     api_key: apiKey,
     stateCode: query,
     limit: maxResults
