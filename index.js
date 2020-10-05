@@ -32,7 +32,6 @@ function displayResults(responseJson) {
 function getParkInfo(query, maxResults) {
   const params = {
     api_key: apiKey,
-    //why???
     stateCode: query,
     limit: maxResults
   };
